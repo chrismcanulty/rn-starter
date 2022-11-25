@@ -33,7 +33,7 @@ const reducer = (state, action) => {
 
 const SquareScreen = () => {
 
-  const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 })
+  const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
   // initial value of state object is { red: 0, green: 0, blue: 0 }
   const { red, green, blue } = state;
 
